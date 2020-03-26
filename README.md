@@ -13,3 +13,13 @@ MATLAB function for generating slice plots
 ## vct_visualization_v1.m
 Main MATLAB script. It plots the test_field in 1D, 2D (contour plot) and 3D (slice plot).
 
+
+## Sample output
+
+
+<p float="left">
+<img src="https://github.com/zaman13/Vector-field-visualization/blob/master/Images/vfield.png" alt="alt text" width="800">
+
+
+</p>
+
