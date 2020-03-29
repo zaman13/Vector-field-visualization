@@ -88,5 +88,6 @@ end
 
 % View angle
 view([-37.5 12]);  
+set(gca,'fontsize',12)
 
 

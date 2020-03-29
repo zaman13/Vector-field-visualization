@@ -30,8 +30,8 @@ if plane == 'z'
     box on;
     axis tight;
     
-    
-%     title(['z = ' num2str(z_cut) ' nm plane'],'color','white');
+    xlabel('x');  ylabel('y'); 
+    title(['z = ' num2str(z_cut) ' plane'],'color','black');
     
 elseif plane == 'x'
     x_cut = cut_val;
@@ -53,9 +53,8 @@ elseif plane == 'x'
     end
     box on;
     axis tight;
-    
-    
-%     title(['x = ' num2str(x_cut) ' nm plane'],'color','white');
+    xlabel('y');  ylabel('z');
+    title(['x = ' num2str(x_cut) ' plane'],'color','black');
     
 else
     y_cut = cut_val;
@@ -75,7 +74,7 @@ else
     axis tight;
     
     
-   
-%     title(['y = ' num2str(y_cut) ' nm plane'],'color','white');
+    xlabel('x');  ylabel('z');
+    title(['y = ' num2str(y_cut) ' plane'],'color','black');
 end
 set(gca,'fontsize',12)
