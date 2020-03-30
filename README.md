@@ -13,6 +13,9 @@ MATLAB function for generating slice plots
 ## vct_visualization_v1.m
 Main MATLAB script. It plots the test_field in 1D, 2D (contour plot) and 3D (slice plot).
 
+## qslice2.m
+Generates 2D quiver plots from 3D data. The visualization plane is taken as an input. Currently, visualization of any plane parallel to the xy, yz or zx plane is possible. Arbitrary plane visualization has not been implemented yet.
+
 
 ## Sample output
 
